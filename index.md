@@ -2,71 +2,33 @@
 layout: home
 ---  
 
-```text
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░░░░░░░░░██╗███████╗██╗░░██╗░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░░░░░░░░░██║██╔════╝██║░██╔╝░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░░░░░░░░░██║█████╗░░█████═╝░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░░░░██╗░░██║██╔══╝░░██╔═██╗░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░░░░╚█████╔╝███████╗██║░╚██╗░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░░░░░╚════╝░╚══════╝╚═╝░░╚═╝░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░░░░░░░░░░░░  v 1.1.0  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-``` 
 
-Jek is a minimalist jekyll theme putting the power of color schemes in the user's hands. Toggle between schemes hassle-free, create new ones on the go, and store settings in-browser. Developed by [Tyler Butler](https://tbutler.org)
+здрасти бубси, надявам се си по-добре
 
-## ⚡ Features 
+## v1.0 Centaurus 
+[Centaurus](https://github.com/tcbutler320/jek/releases/tag/v1.0.0) is the first production release of the Jekyll theme *Jek*, a minimalist jekyll theme that supports over 30 default color schemes. In v1.0, users can now expect effortless changes between color schemes. Get started with your new jek site by forking the [github repository](https://github.com/tcbutler320/jek).
 
-- [x] toggle light/dark with <i class="far fa-moon zoom" onclick="darkMode();"></i>
-- [x] choose theme with <i class="fas fa-palette zoom" onclick="toggleTheme();"></i>
-- [x] choose font with <i class="fas fa-pen-nib" onclick="toggleFont();"></i>
-- [x] save current theme for next visit with <i class="fas fa-user-astronaut zoom" onclick="saveFavorite();"></i>
-- [x] open/close settings with <i class="fas fa-tools zoom" onclick="toggleSettings();"></i>
-- [x] clear settings with <i class="fas fa-snowplow zoom" onclick="clearSettings();"></i>   
+### ⚡ New Features   
++  [x] Jek now supports over 30 themes out of the box!
++  [x] Contact Page Powered by [Netlify Forms](https://docs.netlify.com/forms/setup/)
+
+### 🔧 Bug Fixes  
++  [x] Fixes [issue 3](https://github.com/tcbutler320/jek/issues/3): Toggling between theme pallets instantly switches themes, regardless what theme is in use  
++  [x] Fixes [issue 8](https://github.com/tcbutler320/jek/issues/8): Code snippets in markdown posts are responsive, creating a better UX experience for mobile viewers
+
+### 🚧 Roadmap  
+Whats next for jek? In v2.0, Jek will be installable with ruby Gems, making it possible to stay up to date with the latest features and bug fixes regardless when you create your new site.  
 
 
-## 💡 All About The Theme 
-
-Theme settings are saved in [session](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage) and [local](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) storage. Toggling light/dark mode or choosing a random palette saves settings for only the current session. Clicking the save button adds the theme to local storage for future visits. 
 
 
-## 🍭 Default Themes 
 
-*Try out the default themes by clicking below*
+## v.01 Andromeda Alpha
+[Andromeda](https://github.com/tcbutler320/jek/releases/tag/v0.1) is the first alpha release of the Jekyll Theme *Jek*, a minimalist jekyll theme putting the power of custom color schemes in the user’s hands. toggle between schemes hassle-free, or create new one’s in just 2 steps.
 
+### ⚡ features  
++  [x] toggle dark/light mode 
++  [x] cycle through random themes
++  [x] save them to localstorage 
++  [x] add a new color scheme in 2 simple steps
 
-{% for themes in site.data.themes %}
-<div class="theme-options {{ themes.name }} zoom" onclick="setSpeceficPallet('{{ themes.name }}');">
-    <p class="center">{{ themes.name }} ~ Lorem ipsum dolor sit amet</p>
-</div>
-{% endfor %}  
-
-
-## 👩‍🚀 Add New Themes  
-
-Adding new themes to your new jek site could not be easier, just pick a background color and text color and add them to main.css. Once you're done, add your theme to _data/themes.yaml. Check out [colorhunt](https://colorhunt.co/) for inspiration.
-
-
-1) Add a new scheme to main.css with background-color and color set.  
-  
-```css
-.mytheme {
-  background-color: #0a1d37;
-  color: #ffeedb;
-}
-```  
-
-2) Add a color scheme name to _data/themes.yaml.
-  
-```yaml
-- name: mytheme
-  enabled: true
-```  
-
-## ✍️ Contributing  
-
-If you're interested in contributing to Jek, feel free to fork the repository and make a pull request! If you made a cool new theme and want to add it to the defaults, create an issue and add the [*Theme Suggestion*](https://github.com/tcbutler320/jek/labels/Theme%20Suggestion) label.  
-
-## ⚖️ License
-
-Licensed under [MIT](/LICENSE.txt) by [@tcbutler320](https://github.com/tcbutler320).

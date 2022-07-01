@@ -3,7 +3,7 @@ layout: post
 title:  "All About Themes"
 date:   2021-06-06 09:34:43 -0400
 categories: "About"
-author: Tyler Butler
+author: juniper
 ---  
 
 ```text

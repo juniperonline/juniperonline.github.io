@@ -3,7 +3,7 @@ layout: post
 title:  "Jek Sprite Animations"
 date:   2021-06-08 09:34:43 -0400
 categories: "Features"
-author: Tyler Butler
+author: juniper
 ---  
 
 ```text

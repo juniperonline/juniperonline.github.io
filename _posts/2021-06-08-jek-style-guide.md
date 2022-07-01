@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Jek Style Guide"
+title:  "Auditing smart contracts"
 date:   2021-06-08 09:34:43 -0400
 categories: "HowTo"
-author: Tyler Butler
+author: juniper
 ---  
 
 ```text
